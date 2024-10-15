@@ -55,10 +55,11 @@ const show = () => console.log('display User');
 const hide = () => console.log('hide User');
 // isActive ? show() : hide()
 
-isActive&&show()
-!isActive&&hide()
+// isActive&&show()
+// !isActive&&hide()
 // isActive||show()
 // !isActive||show()
 
 // toggle boolean
-isActive===!isActive
+const active = isActive = !isActive;
+console.log(active);
